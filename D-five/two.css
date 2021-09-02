@@ -1,0 +1,75 @@
+section {
+    width: 86%;
+    height: 600px;
+    margin-top: 20px;
+    padding: 30px;
+   
+}
+
+header {
+    text-align: center;
+}
+
+h3 {
+    color: #902e2e
+}
+
+small {
+    color: rgb(39, 39, 30)
+}
+
+form {
+    width: 40%;
+    background-color: black;
+    height: 450px;
+    float: left;
+    padding: 20px;
+}
+
+div {
+    width: 20%;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+.child {
+    margin: 0 0 10% 20%;
+}
+
+input,
+textarea {
+    background-color: black;
+    width: 90%;
+    border: none;
+    color: white;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(121, 117, 117);
+    border: none;
+    width: 90%;
+}
+
+input[type=submit] {
+    background-color: teal;
+    width: 80%;
+    height: 40px;
+    margin-left: 30px;
+}
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: rgb(156, 65, 65);
+}

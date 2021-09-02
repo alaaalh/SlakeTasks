@@ -1,0 +1,32 @@
+section {
+    height: 800px;
+    margin: 50px;
+    padding: 20px;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+}
+
+tr {
+    padding: 10px;
+}
+
+.font {
+    font-size: 25px;
+}
+
+.child {
+    text-align: center;
+}
+
+tr td {
+    padding: 10px;
+}
+
+small,
+i {
+    color: rgb(108, 87, 226);
+    font-size: 30px;
+}
