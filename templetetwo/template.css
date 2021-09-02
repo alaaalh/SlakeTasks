@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#main {
+    background-image: url(up/1.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-size: 60px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    direction: rtl;
+}
+
+li {
+    padding: 15px;
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+#one {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    line-height: 30px;
+}
+
+button {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(236, 132, 132)
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(216, 100, 32);
+    font-size: 20px;
+}
+
+#info {
+    background-color: rgb(13, 18, 19);
+}
+
+#two {
+    width: 50px;
+    height: 70px;
+    border-radius: 20px;
+    margin: 50px auto;
+    border: 1px solid;
+    position: relative;
+}
+
+#animation {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0%;
+    animation-name: animat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+
+@keyframes animat {
+    0% {
+        top: 0%;
+        left: 40%;
+        opacity: 0%;
+    }
+    30% {
+        top: 30%;
+        left: 40%;
+        opacity: 80%;
+    }
+    40% {
+        left: 40%;
+        top: 40%;
+        opacity: 10%;
+    }
+    50% {
+        left: 40%;
+        top: 50%;
+        opacity: 0%;
+
+    }
+}
+#second, #three,#four,#seven{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    justify-content: space-around;
+    
+}
+#five{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.one{
+    width:30%;
+    padding: 30px;
+}
+#three{
+    
+    margin-top: 650px;
+}
+.two,.three{
+    width:40%
+}
+.four,.seven{
+    margin: 100px;
+    text-align: center;
+}
+.five{
+    width:25%;
+    padding: 30px;
+    text-align: center;
+}
+#six{
+    padding: 50px;
+}
+.six{
+    text-align: center;
+    padding-top: 80px;
+}
+.imges{
+    padding: 50px;
+    width:17%;
+    opacity: .7;
+    transition: opacity .5s;
+}
+.imges:hover{
+    opacity: 1;
+}
+#seven{
+    width:100%;
+    height: 400px;
+    background-color: rgb(26, 25, 46);
+    color: white;
+    
+}
+.eight{
+    padding-top:100px;
+    width:20%;
+}
+.foot{
+    bottom: 0px;
+    background-color:black;
+    text-align: center;
+    color: white;
+}
+i{
+    padding:6px
+}
